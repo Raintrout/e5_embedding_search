@@ -2,7 +2,6 @@ from embedding import EmbeddingPipeline
 from time import process_time
 
 import faiss
-import numpy as np
 
 index = faiss.IndexFlatL2(1024)
 
